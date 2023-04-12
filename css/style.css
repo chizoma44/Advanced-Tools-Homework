@@ -98,3 +98,8 @@ p {
 .primary-link:hover {
   color: var(--primary-color);
 }
+@media (max-width: 300px) {
+  body {
+    font-size: 14px;
+  }
+}
