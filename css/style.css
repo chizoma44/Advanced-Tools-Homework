@@ -100,12 +100,13 @@ p {
 .primary-link:hover {
   color: var(--primary-color);
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   body {
-    max-width: 300px;
+    display: inline-table;
     text-align: center;
     font-size: smaller;
-    display: inline-table;
+    margin: 20 40px;
+    max-width: 300px;
   }
   h1 {
     font-size: 18px;
@@ -117,9 +118,6 @@ p {
     font-size: 14px;
     width: 300px;
     text-align: center;
-  }
-  img {
-    display: none;
   }
   h2,
   h3,
@@ -138,13 +136,18 @@ p {
     display: inline-block;
     text-align: center;
   }
-  .col-6 {
+  .col-sm-6 {
     display: inline-table;
     text-align: center;
   }
   .navbar-brand {
     font-size: smaller;
     display: block;
+    text-align: center;
+  }
+  .about-paragraphs {
+    font-size: 14px;
+    width: 300px;
     text-align: center;
   }
 }
