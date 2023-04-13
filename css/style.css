@@ -105,6 +105,7 @@ p {
     max-width: 300px;
     text-align: center;
     font-size: smaller;
+    display: inline-table;
   }
   h1 {
     font-size: 17px;
@@ -133,6 +134,7 @@ p {
   }
   .primary-link {
     display: inline-block;
+    text-align: center;
   }
   .col-6 {
     display: inline-table;
