@@ -100,7 +100,7 @@ p {
 .primary-link:hover {
   color: var(--primary-color);
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   body {
     max-width: 300px;
     text-align: center;
@@ -108,25 +108,31 @@ p {
     display: inline-table;
   }
   h1 {
-    font-size: 17px;
+    font-size: 18px;
     margin-top: 0;
     padding-top: 10px;
+    text-align: center;
   }
   p {
     font-size: 14px;
     width: 300px;
     text-align: center;
   }
+  img {
+    display: none;
+  }
   h2,
   h3,
   .email-link {
-    font-size: x-small;
+    font-size: medium;
+    text-align: center;
   }
   .contact {
     font-size: x-small;
+    text-align: center;
   }
   .navigation-links {
-    display: none;
+    text-align: center;
   }
   .primary-link {
     display: inline-block;
