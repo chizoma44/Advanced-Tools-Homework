@@ -150,4 +150,7 @@ p {
     width: 300px;
     text-align: center;
   }
+  .homepage-image {
+    display: none;
+  }
 }
