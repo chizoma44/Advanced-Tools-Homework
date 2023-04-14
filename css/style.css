@@ -153,4 +153,7 @@ p {
   .homepage-image {
     display: none;
   }
+  .heading {
+    font-size: 20px;
+  }
 }
